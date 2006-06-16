@@ -1,0 +1,4 @@
+category: Gnome
+requires: cygwin gconfmm26 glibmm24 gnome-panel gtkmm24 libgnomeui2 libsigc++20
+sdesc: "C++ bindings for GNOME libpanel-applet"
+ldesc: "Official C++ bindings for the GNOME panel-applet library"
