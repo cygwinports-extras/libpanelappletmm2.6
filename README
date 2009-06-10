@@ -1,93 +1,33 @@
-libpanelappletmm26
+libpanelappletmm2.6
 -------------------------------------------
 Official C++ bindings for the GNOME panel-applet library.
 
 Runtime requirements:
-  cygwin-1.5.18-1
-  GConf2-2.10.1-1
-  ORBit2-2.12.3-1
-  atk-runtime-1.9.1-1
-  expat-1.95.8-1
-  gconfmm26-2.10.0-1
-  glib2-runtime-2.6.5-1
-  glibmm24-2.6.1-1
-  gnome-keyring-0.4.5-1
-  gnome-panel-2.10.2-1
-  gnome-vfs2-2.10.1-1
-  gtk2-x11-runtime-2.6.8-1
-  gtkmm24-2.6.4-1
-  libXft2-2.1.6-1
-  libart_lgpl2-2.3.17-1
-  libaudiofile0-0.2.6-2
-  libbonobo2-2.10.1-1
-  libbonoboui2-2.10.1-1
-  libesound0-0.2.36-1
-  libfontconfig1-2.2.2-1
-  libfreetype26-2.1.9-1
-  libgnome2-2.10.1-1
-  libgnomecanvas2-2.10.2-1
-  libgnomeui2-2.10.1-1
-  libiconv2-1.9.2-1
-  libintl3-0.14.1-1
-  libjpeg62-6b-11
-  libpopt0-1.6.4-4
-  libsigc++20-2.0.16-1
-  libxml2-2.6.20-3
-  minires-1.00-1
-  openssl-0.9.8a-1
-  pango-runtime-1.8.1-1
-  xorg-x11-bin-dlls-6.8.2.0-1
-  zlib-1.2.3-1
+  cygwin-1.7.0-48
+  libatkmm1.6_1-2.16.0-1
+  libbonobo2_0-2.24.1-1
+  libgcc1-4.3.2-2
+  libgconfmm2.6_1-2.24.0-10
+  libglib2.0_0-2.20.3-1
+  libglibmm2.4_1-2.20.0-1
+  libgtkmm2.4_1-2.16.0-1
+  libpanel-applet2_0-2.26.2-1
+  libsigc2.0_0-2.2.3-10
+  libstdc++6-4.3.2-2
 
 Build requirements:
-  cygwin-1.5.18-1
-  autoconf2.5-2.59-3
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  gawk-3.1.5-1
-  gcc-core-3.4.4-1
-  gcc-g++-3.4.4-1
-  libtool1.5-1.5.20-1
-  m4-1.4.2-1
-  make-3.80-1
-  perl-5.8.7-4
-  pkgconfig-0.17.2-2
-  sed-4.1.4-1
-
-  GConf2-2.10.1-1
-  ORBit2-devel-2.12.3-1
-  atk-devel-1.9.1-1
-  expat-1.95.8-1
-  gconfmm26-2.10.0-1
-  gettext-0.14.1-1
-  glib2-devel-2.6.5-1
-  glibmm24-devel-2.6.1-1
-  gnome-keyring-0.4.5-1
-  gnome-panel-2.10.2-1
-  gnome-vfs2-2.10.1-1
-  gtk2-x11-devel-2.6.8-1
-  gtkmm2-devel-2.6.4-1
-  jpeg-6b-11
-  libXft-devel-2.1.6-1
-  libart_lgpl2-2.3.17-1
-  libaudiofile0-devel-0.2.6-2
-  libbonobo2-devel-2.10.1-1
-  libbonoboui2-2.10.1-1
-  libesound0-devel-0.2.36-1
-  libfontconfig-devel-2.2.2-1
-  libfreetype2-devel-2.1.9-1
-  libgnome2-2.10.1-1
-  libgnomecanvas2-2.10.2-1
-  libgnomeui2-2.10.1-1
-  libiconv-1.9.2-1
-  libsigc++20-devel-2.0.16-1
-  libxml2-devel-2.6.20-3
-  minires-devel-1.00-1
-  openssl-devel-0.9.8a-1
-  pango-devel-1.8.1-1
-  popt-1.6.4-4
-  xorg-x11-devel-6.8.2.0-1
-  zlib-1.2.3-1
+(besides corresponding devel packages)
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-1
+  gcc-core-4.3.2-2
+  gcc-g++-4.3.2-2
+  libtool-2.2.7a-12
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.1.5-2
 
 Canonical homepage:
   http://www.gtkmm.org/
@@ -98,54 +38,53 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libpanelappletmm26-2.6.0-2-src.tar.bz2
+  unpack libpanelappletmm2.6-2.26.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./libpanelappletmm-2.6.0-2.sh all
+  cygport ./libpanelappletmm2.6-2.26.0-X.sh all
 
 This will create:
-  /usr/src/libpanelappletmm26-2.6.0-2-src.tar.bz2
-  /usr/src/libpanelappletmm26-2.6.0-2.tar.bz2
+  /usr/src/libpanelappletmm2.6-2.26.0-X-src.tar.bz2
+  /usr/src/libpanelappletmm2.6-devel-2.26.0-X.tar.bz2
+  /usr/src/libpanelappletmm2.6_1-2.26.0-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
+Files included in the binary packages:
 
+(libpanelappletmm2.6_1)
   /usr/bin/cygpanelappletmm-2.6-1.dll
+  /usr/share/doc/libpanelappletmm2.6/AUTHORS
+  /usr/share/doc/libpanelappletmm2.6/COPYING
+  /usr/share/doc/libpanelappletmm2.6/ChangeLog
+  /usr/share/doc/libpanelappletmm2.6/NEWS
+  /usr/share/doc/libpanelappletmm2.6/README
+  /usr/share/doc/libpanelappletmm2.6/TODO
+
+(libpanelappletmm2.6-devel)
+  /usr/include/libpanelappletmm-2.6/libpanelappletmm.h
   /usr/include/libpanelappletmm-2.6/libpanelappletmm/applet.h
   /usr/include/libpanelappletmm-2.6/libpanelappletmm/enums.h
   /usr/include/libpanelappletmm-2.6/libpanelappletmm/factory.h
   /usr/include/libpanelappletmm-2.6/libpanelappletmm/init.h
+  /usr/include/libpanelappletmm-2.6/libpanelappletmm/private.h
   /usr/include/libpanelappletmm-2.6/libpanelappletmm/private/applet_p.h
   /usr/include/libpanelappletmm-2.6/libpanelappletmm/private/enums_p.h
-  /usr/include/libpanelappletmm-2.6/libpanelappletmm/private.h
   /usr/include/libpanelappletmm-2.6/libpanelappletmm/wrap_init.h
-  /usr/include/libpanelappletmm-2.6/libpanelappletmm.h
+  /usr/lib/libpanelappletmm-2.6.dll.a
+  /usr/lib/libpanelappletmm-2.6.la
   /usr/lib/libpanelappletmm-2.6/include/libpanelappletmmconfig.h
   /usr/lib/libpanelappletmm-2.6/proc/m4/convert.m4
   /usr/lib/libpanelappletmm-2.6/proc/m4/convert_libpanelappletmm.m4
-  /usr/lib/libpanelappletmm-2.6.dll.a
-  /usr/lib/libpanelappletmm-2.6.la
   /usr/lib/pkgconfig/libpanelappletmm-2.6.pc
-  /usr/share/doc/Cygwin/libpanelappletmm26-2.6.0.README
-  /usr/share/doc/libpanelappletmm26-2.6.0/AUTHORS
-  /usr/share/doc/libpanelappletmm26-2.6.0/ChangeLog
-  /usr/share/doc/libpanelappletmm26-2.6.0/COPYING
-  /usr/share/doc/libpanelappletmm26-2.6.0/INSTALL
-  /usr/share/doc/libpanelappletmm26-2.6.0/NEWS
-  /usr/share/doc/libpanelappletmm26-2.6.0/README
-  /usr/share/doc/libpanelappletmm26-2.6.0/TODO
 
 --------------------
 
 Port Notes:
 
------ version 2.6.0-2 -----
-Rebuilt with gcc-3.4 and GNOME 2.10.
-
------ version 2.6.0-1 -----
-Initial release for Cygwin.
+----- version 2.26.0-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
