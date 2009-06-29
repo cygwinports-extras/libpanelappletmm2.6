@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libpanelappletmm2.6_1 libatkmm1.6-devel libbonobo2-devel libgconfmm2.6-devel libglib2.0-devel libglibmm2.4-devel libgtkmm2.4-devel libpanel-applet2-devel libsigc2.0-devel libstdc++6-devel
+requires: libpanelappletmm2.6_1 libatkmm1.6-devel libbonobo2-devel libgconfmm2.6-devel libglib2.0-devel libglibmm2.4-devel libgtkmm2.4-devel libpanel-applet2-devel libsigc2.0-devel libstdc++6-devel
 external-source: libpanelappletmm2.6
 sdesc: "C++ bindings for GNOME libpanel-applet (development)"
 ldesc: "Official C++ bindings for the GNOME panel-applet library"
